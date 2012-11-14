@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IMEI</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- IMEI references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/imeiverify.js"></script>
+</head>
+<body>
+    <h1>IMEI 验证工具</h1>
+    <br />
+    <span>请输入15位IMEI码:</span>
+    <br />
+    <input id="imeiinput" type="text" name="imeiinput"/>
+    <input type="button" id="imeiverify" name="imeiverify" value="验证IMEI"/>
+    <span id="verifyinfo"></span>
+    <br />
+    <br />
+    <input type="button" id="imeigen" name="imeigen" value="生成随机IMEI"/>
+    <br />
+    <div id="imeiresult"></div>
+</body>
+</html>

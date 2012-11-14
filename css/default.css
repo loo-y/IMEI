@@ -1,0 +1,35 @@
+﻿body {
+    margin: 10em auto;
+    width: 900px;
+    font-family:'Microsoft YaHei UI','Microsoft YaHei';
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+.ranbtn {
+    margin: 10px 40px 10px 0;
+    position: relative;
+    bottom: 1px;
+}
+
+.raninput {
+    margin: 10px 0;
+}
+
+#verifyinfo {
+    margin-left:20px;
+}
+
+.red {
+    color: red;
+}

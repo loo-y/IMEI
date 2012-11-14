@@ -13,8 +13,7 @@
  */
 
 
-function imeigen(imeiString) {
-    //imeiString = "35566778898256";//前14位  
+function imeigen(imeiString) { 
     var imeiLength = imeiString.length;
     var resultInt = 0;
     for (var i = 0; i < imeiLength; i++) {
